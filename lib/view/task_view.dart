@@ -12,6 +12,8 @@ class TaskPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+
+
     return Scaffold(
 
       body: SafeArea(
@@ -29,6 +31,7 @@ class TaskPage extends StatelessWidget {
 
           ],
         ),
+
       ),
       floatingActionButton: AddTask(),  //create widget
     );
